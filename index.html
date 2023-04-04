@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Hello World!</title>
+
+    <!-- 
+      The website stylesheet
+      This connects your CSS file to your HTML
+    -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- 
+      Here you can import your fonts
+      You can find all sort of fonts here: https://fonts.google.com/ 
+      Find the one that you like and copy hte <link> part from Selected family
+    -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--
+      The body includes the content you see in the page
+      Each element is defined using tags, like this <div></div>
+      The attributes like class="wrapper" let us style elements in the CSS
+      We have already prepared basic structure for your elements, but you can change them anyway you like
+    -->
+    <div class="wrapper">
+      <div class="content">
+        <!-- Our main title -->
+        <h1 class="title">Hello World!</h1>
+        <!-- 
+          Here you can implement the logo from assets folder
+          For source attribute you will need to copy the url link of the picture,
+          because it's uploaded online
+        -->
+        <img class="logo" src="https://cdn.glitch.global/f2832af4-2874-427c-bcde-74d253819337/green_fox_logo.png?v=1678725318458" />
+        <!-- 
+          This is our main text area
+          Look closely on the page that you should recreate and figure out what tags you have to add
+        -->
+        <div class="main">
+          <h2>Beggining of something big</h2>
+
+          <p>Welcome to my <strong>First Website Project!</strong> First let me introduce myself. My name is Bruce Wayne and I
+          want to become the very best software developer, that works by day and protects innocents by night. Here is a list of
+          my biggest achievments:</p>
+          
+          <div class="box">
+            <ul>
+              <li>Own multibilion company Wayne Enterprises</li>
+              <li>Defeated Joker and sent him to Arkham Asylum</li>
+              <li>Fought aliens and saved Gotham City</li>
+              <li>Looking way better than Clark Kent</li>
+            </ul>
+          </div>
+          <!--  Add more elements and style them in the CSS file -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

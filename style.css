@@ -1,0 +1,60 @@
+/* 
+  The style rules specify elements by type and by attributes such as class and ID
+  Each section indicates an element or elements, then lists the style properties to apply
+  You can see that some of the selectors are already prepared for you, but everything is up to you
+*/
+
+/*
+  When you target Body the rules will apply to everything on your page
+  This is usefull for implementing fonts or background
+*/
+
+/*
+  Try deleting this comment (leave the body selector) and see how it changes your page
+  You can use your own color and fonts of course
+
+body {
+  font-family: "Sono", sans-serif;
+  background-color: rgb(207, 255, 214);
+}
+*/
+
+/* Page structure - this will basically center everything to the center of the page*/
+body {
+  font-family: "Sono", sans-serif;
+  background-color: rgb(207, 255, 214);
+}
+h1, h2{
+  color: blue;
+}
+
+.wrapper {
+  display: grid;
+  place-items: center;
+  margin: 0 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Very light scaling for our logo */
+.logo {
+  max-width: 420px;
+  max-height: 300px;
+}
+
+/* Main text area */
+.main {
+  margin: 0;
+  max-width: 600px;
+}
+
+.box {
+  margin: 50px, 30px;
+  padding: 50px, 20px;
+  border: 2px solid #000;
+}
